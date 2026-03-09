@@ -17,5 +17,3 @@ Built as part of the roadmap.sh beginner Linux/Bash project.
 chmod +x server-stats.sh
 ./server-stats.sh
 
-## Sample Output
-(paste a screenshot or text output here once you've built it)
