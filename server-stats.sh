@@ -45,3 +45,9 @@ echo "Used: $disk_used ($disk_percent)"
 echo "Free: $disk_free"
 
 echo "=================="
+echo "Top 5 Processes by the CPU"
+ps aux --sort=-%cpu | awk 'NR<=6 {printf "%-10s %-8s %-8s %s\n", $1, $2, $3, $11}'
+
+echo "=================="
+echo "Top 5 Processes by Memory"
+ps aux --sort=-%mem | awk 'NR<=6 {printf "%-10s %-8s %-8s %s\n", $1, $2, $4, $11}'
