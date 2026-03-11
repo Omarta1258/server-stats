@@ -2,6 +2,7 @@
 
 A bash script to analyse basic server performance stats.
 Built as part of the roadmap.sh beginner Linux/Bash project.
+https://roadmap.sh/projects/server-stats
 
 ## Features
 - Total CPU usage
